@@ -27,6 +27,9 @@ public class Chapter4ExtraCode{
         Scanner scanner = new Scanner(System.in);
         Colour c = null;
         
+        Season season = Season.Winter;
+        System.out.println(season);
+        
         // some errors
         //c = Colour.PURPLE;
         //c = "Purple";

@@ -38,7 +38,6 @@ enum ColourII{
 public class Chapter4ExtraCodeMarkII{
     
     public enum Season{WINTER, SPRING, SUMMER, FALL};
-
     
     
     public static void main(String[] args) {              
@@ -48,8 +47,10 @@ public class Chapter4ExtraCodeMarkII{
 
         Season timeOfYear = null;
         timeOfYear = Season.FALL;
+        
         //timeOfYear = Season.AUTUMN;
-
+        //timeOfYear = SUMMER;
+        
         // use Colour
         ColourII c = null;
         ColourII red = ColourII.RED;
@@ -92,6 +93,8 @@ public class Chapter4ExtraCodeMarkII{
 
         for(Element el : Element.values())
             System.out.println(el);
+            
+        
 
         System.out.println("end of program");
     }
