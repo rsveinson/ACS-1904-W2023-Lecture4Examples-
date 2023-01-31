@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.util.ArrayList;
+
 /** 
  * ACS-1904 Enum supplementary example
  * Sveinson 
@@ -94,6 +96,12 @@ public class Chapter4ExtraCodeMarkII{
         for(Element el : Element.values())
             System.out.println(el);
             
+        // array list of enum objects?
+        ArrayList<Element> list = new ArrayList<>();
+        
+        Element carbon = Element.C;
+        list.add(carbon);
+        System.out.println(list);
         
 
         System.out.println("end of program");
