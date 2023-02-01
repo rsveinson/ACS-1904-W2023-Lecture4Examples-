@@ -49,7 +49,8 @@ public class Chapter4ExtraCodeMarkII{
 
         Season timeOfYear = null;
         timeOfYear = Season.FALL;
-        
+        Season s = Season.WINTER;
+        s = Season.SUMMER;
         //timeOfYear = Season.AUTUMN;
         //timeOfYear = SUMMER;
         
@@ -60,9 +61,6 @@ public class Chapter4ExtraCodeMarkII{
 
         System.out.println(red == green);
 
-        Season s = Season.WINTER;
-        s = Season.SUMMER;
-
         // some errors
         //c = Colour.Purple;
         //c = "Purple";
@@ -71,13 +69,23 @@ public class Chapter4ExtraCodeMarkII{
         // get an array of Colour values
         ColourII[] colours = ColourII.values();
         System.out.println(colours.length);
-        System.out.println(colours[0].name());
+        
+        // the difference between .name() and toString();
+        System.out.println("Name: " + colours[0].name());
+        System.out.println("toString(): " + colours[0]);
 
         // travers the enum using .values()
+        System.out.println();
+        System.out.println("The whole list:");
         for(ColourII cl : colours)
             System.out.println(cl);
 
+        System.out.println();
+        System.out.println("the variable c why is it null?");
         System.out.println(c);
+        
+        System.out.println();
+        System.out.println("use c by assigning a value");
         c = ColourII.RED;
         System.out.println("the colour " + c + " makes me feel " + c.getFeeling());
         c = ColourII.GREEN;
@@ -86,6 +94,8 @@ public class Chapter4ExtraCodeMarkII{
         System.out.println("the colour " + c + " makes me feel " + c.getFeeling()); 
 
         /* *** using the more complex Element enum *** */
+        System.out.println();
+        System.out.println("now let's look at the Element Enum");
         Element e = Element.HE;         // helium
         System.out.println(e);
 
