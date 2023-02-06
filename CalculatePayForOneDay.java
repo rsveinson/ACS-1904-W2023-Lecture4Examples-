@@ -12,8 +12,8 @@ import java.util.Scanner;
         int hours = kb.nextInt();
         
         // the day as a string
-        String dayStr = kb.next();
-        //String dayStr = kb.next().toUpperCase();
+        //String dayStr = kb.next();
+        String dayStr = kb.next().toUpperCase();
         
         // the day as an enum constant
         Day day = Day.valueOf(dayStr);      // remember that the variable day can
