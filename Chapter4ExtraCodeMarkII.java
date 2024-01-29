@@ -5,6 +5,11 @@ import java.util.ArrayList;
  * ACS-1904 Enum supplementary example
  * Sveinson 
  */
+
+/* override toString() on the Enum constants
+ * an alternative to including an extra field
+ * for the "friendly name"
+ */
 enum ColourII{
     RED("warm"){
         @Override
