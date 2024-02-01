@@ -18,4 +18,8 @@ public enum EnhancedDay
     public boolean isWeekend(){
         return weekend;
     }
+    
+    public void setWeekend(boolean n){
+        weekend = n;
+    }
 }

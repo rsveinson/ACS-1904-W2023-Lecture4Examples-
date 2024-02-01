@@ -55,6 +55,7 @@ enum Element{
      st.append(this.atomicNumber + ", " + this.atomicWeight);
      
      return st.toString();
+     //return st;
     }
     
 }// end enum Element
