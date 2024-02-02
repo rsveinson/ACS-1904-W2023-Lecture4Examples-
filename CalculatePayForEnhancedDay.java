@@ -14,6 +14,12 @@ import java.util.Scanner;
         EnhancedDay day = EnhancedDay.valueOf(kb.next().toUpperCase());
         
         System.out.println("gross is $" + calcPay(rate, hours, day));
+        
+        // test the setter
+        
+        // EnhancedDay d = Day.MONDAY;
+        // System.out.println(d.isWeekend());
+        
     }
     private static double calcPay(double rate, int hours, EnhancedDay day){
         double gross;

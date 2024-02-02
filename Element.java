@@ -55,9 +55,12 @@ enum Element{
      st.append(this.atomicNumber + ", " + this.atomicWeight);
      
      return st.toString();
+<<<<<<< HEAD
      
      // this line causes and error because the return type of toString() is String
      // not StringBuilder
+=======
+>>>>>>> 57d2085c22c4309f257262189af15a7cee0c56da
      //return st;
     }
     
