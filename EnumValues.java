@@ -11,10 +11,10 @@ public class EnumValues
         
         System.out.println("Days of the week:");
         
-        for (Day d: daysOfWeek)
-            System.out.println(d);
+        // for (Day d: daysOfWeek)
+            // System.out.println(d);
             
-        // for(Day d: Day.values())
-            // System.out.println("other " + d);
+        for(Day d: Day.values())
+            System.out.println("other " + d);
     }
 }
